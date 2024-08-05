@@ -27,6 +27,7 @@ turns = 12
 
 while turns > 0:
 
+    # ---------------------------------------- function to determin the winner
     # counts the number of times a user fails
     failed = 0
 
@@ -55,6 +56,9 @@ while turns > 0:
         print("The word is: ", word)
         break
 
+    # ---------------------------------------------------------------
+
+    
     # if user has input the wrong alphabet then
     # it will ask user to enter another alphabet
     print()
